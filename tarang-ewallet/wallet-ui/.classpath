@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/accountcloser-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/accountmgmt-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/audittrail-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/common-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/crypt-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/customer-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dispute-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/email-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/feemgmt-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/fraudcheck-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/http-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/initial-datasetup"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/masterdata-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/merchant-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MerchantPayWebApp"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/notification-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prepaidcardmgmt-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/reconcile-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/reports-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/scheduler-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/sms-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/transaction-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/usermgmt-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/util-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/zzzzzz"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

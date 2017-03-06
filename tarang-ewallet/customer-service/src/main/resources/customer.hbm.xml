@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.tarang.ewallet.model" >
+
+	<class name="Customer" table="customer" >
+		<id name="id" type="long" column="id" >
+			<generator class="native" />
+		</id>
+		<property name="title" column="title" not-null="true" type="long" />
+		<property name="nameId" not-null="true" type="long" />
+		<property name="addressId" not-null="true" type="long" />
+		<property name="authenticationId" not-null="true" type="long" />
+		<property name="phoneIdOne" not-null="true" type="long" />
+		<property name="dateOfBirth" not-null="true" type="java.util.Date" />	
+	</class>
+	
+	<query name="getCustomerIdById">
+		<![CDATA[from Customer as customer where customer.authenticationId=?]]>
+	</query>
+	
+	<query name="getCustomerIdByPhoneId">
+		<![CDATA[from Customer as customer where customer.phoneIdOne=?]]>
+	</query>
+
+</hibernate-mapping>
